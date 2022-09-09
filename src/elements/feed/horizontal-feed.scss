@@ -1,0 +1,7 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#base #feed {\n  display: flex;\n  flex-direction: row;\n  overflow-x: auto;\n  flex-wrap: nowrap;\n}\n#base #feed::-webkit-scrollbar {\n  display: none;\n}\n#base #feed identity-feed-item {\n  margin-right: 18px;\n}\n#base #feed identity-feed-item:last-child {\n  margin-right: 0;\n}", ""]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;

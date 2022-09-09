@@ -1,0 +1,12 @@
+import './game-builds.ts';
+import './game-namespace.ts';
+import './game-sites.ts';
+import './game-logs.ts';
+import './game-lobbies.ts';
+import './game-kv.ts';
+import './game-summary.ts';
+import './game-tokens';
+import './game-version-draft.ts';
+import './game-version.ts';
+import './game.ts';
+import './games.ts';

@@ -1,0 +1,7 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --fill: white;\n}\n\n:host {\n  --fill: white;\n}\n\n:host {\n  display: inline-block;\n  width: 1em;\n  height: 1em;\n  vertical-align: middle;\n}\n\n:host(:not([preserve])) svg * {\n  fill: var(--fill, white) !important;\n  transition: 200ms fill;\n}\n\nsvg {\n  display: block;\n  width: inherit !important;\n  height: inherit !important;\n}\n\n:host([absolute-position]) > svg {\n  width: 100% !important;\n  height: 100% !important;\n}", ""]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;
